@@ -9,5 +9,7 @@ while count < src.length do
     if src[count][inner_count].even?
       p src[count][inner_count]
   end
+    inner_count += 1
 end
+count += 1
 end
